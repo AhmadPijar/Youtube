@@ -1,0 +1,242 @@
+/* navbar top start */
+nav {
+  background-color: #fff;
+  position: fixed;
+  display: flex;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 56px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .menu {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+nav .menu:hover {
+  background-color: #eaeaea;
+}
+nav .menu img {
+  width: 20px;
+  height: 20px;
+}
+nav .logo {
+  width: 110px;
+  height: 40px;
+  margin-left: -120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav .logo img {
+  width: 34px;
+  height: 34px;
+}
+nav .logo span {
+  font-size: 18px;
+  font-weight: bold;
+}
+nav .logo sup {
+  font-size: 10px;
+}
+nav form.search {
+  display: flex;
+  justify-self: center;
+}
+nav .search input {
+  border: 1px solid lightslategray;
+  border-radius: 20px 0 0 20px;
+  width: 500px;
+  height: 40px;
+}
+nav .search button {
+  border-radius: 0 40% 40% 0;
+  border: 1px solid lightslategray;
+  margin: 0 0 0 -2px;
+  width: 58px;
+  height: 40px;
+  cursor: pointer;
+}
+
+nav .mic {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: -130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+nav .mic:hover {
+  background-color: #eaeaea;
+}
+nav .mic img {
+  width: 18px;
+  height: 18px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  margin: 0 0 0 10px;
+}
+nav .subscribe {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+nav .subscribe:hover {
+  background-color: #eaeaea;
+}
+nav .subscribe img {
+  width: 20px;
+  height: 20px;
+}
+nav .notif {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+nav .notif:hover {
+  background-color: #eaeaea;
+}
+nav .notif img {
+  width: 20px;
+  height: 20px;
+}
+nav .account {
+  background-color: #4c37a8;
+  border-radius: 50%;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  margin: 0 18px 0 18px;
+  cursor: pointer;
+}
+nav .account h1 {
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+/* navbar top end */
+
+/* navbar aside start */
+
+aside {
+  background-color: #fff;
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  width: 70px;
+  top: 56px;
+  left: 0;
+  bottom: 0;
+}
+aside span {
+  font-size: 11px;
+}
+aside .beranda {
+  border-radius: 10px 10px 10px 10px;
+}
+aside .beranda a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 18px 0 18px 0;
+  text-decoration: none;
+  color: #333;
+}
+aside .beranda:hover {
+  background-color: #eaeaea;
+}
+aside .beranda img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 8px;
+}
+aside .shorts {
+  border-radius: 10px 10px 10px 10px;
+}
+aside .shorts a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px 10px 10px 10px;
+  width: 100%;
+  padding: 18px 0 18px 0;
+  text-decoration: none;
+  color: #333;
+}
+
+aside .shorts:hover {
+  background-color: #eaeaea;
+}
+aside .shorts img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 8px;
+}
+aside .subs {
+  border-radius: 10px 10px 10px 10px;
+}
+aside .subs a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px 10px 10px 10px;
+  width: 100%;
+  padding: 18px 0 18px 0;
+  text-decoration: none;
+  color: #333;
+}
+aside .subs:hover {
+  background-color: #eaeaea;
+}
+aside .subs img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 8px;
+}
+aside .koleksi {
+  border-radius: 10px 10px 10px 10px;
+}
+aside .koleksi a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px 10px 10px 10px;
+  width: 100%;
+  padding: 18px 0 18px 0;
+  text-decoration: none;
+  color: #333;
+}
+aside .koleksi:hover {
+  background-color: #eaeaea;
+}
+aside .koleksi img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 8px;
+}
+/* navbar aside end */

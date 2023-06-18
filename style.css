@@ -1,0 +1,297 @@
+/* ==================================== */
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  scroll-behavior: smooth;
+  background-color: #f8f8f8;
+}
+
+/* Section start */
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Genre start */
+section form {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  top: 56px;
+  left: 70px;
+  right: 0;
+  height: 56px;
+  flex-direction: row;
+}
+section form button {
+  background-color: #eaeaea;
+  border-radius: 10px 10px;
+  border: 0;
+  margin-left: 15px;
+  padding: 8px 13px;
+  cursor: pointer;
+}
+section form button:hover {
+  background-color: #cccccc;
+}
+section form button:first-child {
+  background-color: #333;
+  color: #fff;
+}
+/* Genre end */
+
+/* ads start */
+section .ads {
+  display: flex;
+  padding: 15px;
+  margin: 112px 0 10px 70px;
+  box-sizing: border-box;
+}
+section .ads .adsthumb1 {
+  background-color: lightsalmon;
+  border-radius: 10px;
+  justify-self: left;
+  width: 400px;
+  height: 200px;
+}
+section .ads ul {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+section .ads .adsthumb2 {
+  background-color: lightblue;
+  justify-self: right;
+  border-radius: 10px;
+  width: 740px;
+  height: 100px;
+}
+section .ads .adscontent {
+  display: flex;
+}
+section .ads .adschannel {
+  background-color: #333;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  margin: 15px 0 0 0;
+}
+section .adscontent ul {
+  margin-top: 20px;
+}
+section .adscontent ul li {
+  margin-bottom: 8px;
+}
+section .adscontent li a {
+  text-decoration: none;
+  color: #333;
+}
+section .adscontent li h1 {
+  font-size: 17px;
+  font-weight: bold;
+}
+section .adscontent li h2 {
+  font-size: 15px;
+  font-weight: bold;
+}
+section .adscontent li span {
+  font-size: 15px;
+  color: #8b8b8b;
+  font-weight: lighter;
+}
+/* ads end */
+
+/* Content start */
+section .main {
+  margin-left: 70px;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main .content {
+  display: flex;
+  height: 300px;
+  margin: 0 30px 30px 0;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.main .thumbnail {
+  background-color: aquamarine;
+  border-radius: 10px;
+  width: 100%;
+  height: 70%;
+}
+.main .channel {
+  display: flex;
+  padding: 15px;
+}
+.main .channel .logochannel {
+  background-color: #333;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.main ul li {
+  margin-top: 8px;
+}
+.main ul a {
+  text-decoration: none;
+  color: #333;
+}
+.main ul h3 {
+  font-size: 17px;
+  font-weight: bold;
+}
+.main ul h4 a {
+  font-size: 15px;
+  color: #7c7b7b;
+}
+.main ul h4 a:hover {
+  font-weight: bold;
+  color: #666666;
+}
+.main .channel ul li:nth-child(3) a {
+  font-size: 15px;
+  font-style: italic;
+  color: #5c5959;
+}
+/* Content end */
+
+/* shorts start */
+.main .bodyshorts {
+  display: flex;
+  width: 100%;
+  height: 550px;
+  flex-direction: column;
+  border-top: 5px solid #d8d7d7;
+  border-bottom: 5px solid #d8d7d7;
+  margin-bottom: 38px;
+}
+.main .bodyshorts .shortslogo {
+  display: flex;
+  width: 100px;
+  height: 40px;
+  margin: 27px 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+.bodyshorts .shortslogo img {
+  width: 33px;
+  height: 33px;
+}
+.bodyshorts .shortslogo span {
+  font-size: 19px;
+}
+.bodyshorts .shortscontent {
+  height: 380px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.bodyshorts .shortscontent ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.bodyshorts .shortscontent ul li {
+  width: 170px;
+  height: 290px;
+  margin-right: 18px;
+  padding: 2px;
+  box-sizing: border-box;
+  position: relative;
+}
+.bodyshorts .shortscontent li div {
+  background-color: rgb(157, 191, 201);
+  width: 170px;
+  height: 290px;
+  border-radius: 10px;
+  margin-right: 18px;
+}
+.bodyshorts .shortscontent li h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+/* shorts end */
+
+/* Section end */
+
+/*======== shorts section =========*/
+section .video {
+  width: 390px;
+  height: 550px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-top: 90px;
+}
+.video .svideo {
+  background-color: tomato;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-around;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  width: 330px;
+  height: 550px;
+  box-sizing: border-box;
+}
+.video .svideo .akun {
+  width: 150px;
+  height: 38px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.video .svideo .akunshorts {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+}
+.video .svideo .akun span {
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.video .svideo button {
+  border-radius: 40px;
+  border: 0;
+  width: 100px;
+  height: 37px;
+  cursor: pointer;
+}
+.video .interaction {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.video .interaction div {
+  background-color: #dadada;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 0 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.video .interaction img {
+  width: 30px;
+  height: 30px;
+}
+
+/*======== shorts section end=========*/
