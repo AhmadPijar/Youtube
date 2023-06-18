@@ -10,6 +10,7 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  z-index: 999;
 }
 nav .menu {
   border-radius: 50%;
@@ -140,6 +141,35 @@ nav .account h1 {
 
 /* navbar top end */
 
+/* Genre start */
+section form {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  top: 56px;
+  left: 70px;
+  right: 0;
+  height: 56px;
+  flex-direction: row;
+  z-index: 999;
+}
+section form button {
+  background-color: #eaeaea;
+  border-radius: 10px 10px;
+  border: 0;
+  margin-left: 15px;
+  padding: 8px 13px;
+  cursor: pointer;
+}
+section form button:hover {
+  background-color: #cccccc;
+}
+section form button:first-child {
+  background-color: #333;
+  color: #fff;
+}
+/* Genre end */
+
 /* navbar aside start */
 
 aside {
@@ -151,6 +181,7 @@ aside {
   top: 56px;
   left: 0;
   bottom: 0;
+  z-index: 999;
 }
 aside span {
   font-size: 11px;

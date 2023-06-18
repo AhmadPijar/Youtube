@@ -13,34 +13,6 @@ section {
   flex-direction: column;
 }
 
-/* Genre start */
-section form {
-  display: flex;
-  position: fixed;
-  align-items: center;
-  top: 56px;
-  left: 70px;
-  right: 0;
-  height: 56px;
-  flex-direction: row;
-}
-section form button {
-  background-color: #eaeaea;
-  border-radius: 10px 10px;
-  border: 0;
-  margin-left: 15px;
-  padding: 8px 13px;
-  cursor: pointer;
-}
-section form button:hover {
-  background-color: #cccccc;
-}
-section form button:first-child {
-  background-color: #333;
-  color: #fff;
-}
-/* Genre end */
-
 /* ads start */
 section .ads {
   display: flex;
